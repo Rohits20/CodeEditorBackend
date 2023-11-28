@@ -94,5 +94,5 @@ io.on("connection", (socket) => {
   });
 });
 
- const PORT = "https://codeeditorbackend.onrender.com";
-server.listen(PORT, () => console.log("Listening to port 5000"));
+const PORT = process.env.PORT;
+server.listen(PORT, () => console.log("Listening to port 5000",PORT ));
