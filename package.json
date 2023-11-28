@@ -30,7 +30,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node src/server.js",
     "build": "echo 'Bulding.... (not actually doing something, but usually I would)'"
   },
   "eslintConfig": {
